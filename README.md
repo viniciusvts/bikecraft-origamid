@@ -15,3 +15,15 @@ E os das demais páginas:
 - [Sobre](docs/wireframe/Sobre.jpg)
 - [Contato](docs/wireframe/Contato.jpg)
 
+## Design
+Desenvolvimento do design final das páginas
+Design final da Home:
+
+![Home](docs/design/Home.jpg)
+
+E os das demais páginas
+
+- [Portifolio](docs/design/Portifolio.jpg)
+- [Produtos](docs/design/Produtos.jpg)
+- [Sobre](docs/design/Sobre.jpg)
+- [Contato](docs/design/Contato.jpg)
