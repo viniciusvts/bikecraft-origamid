@@ -1,4 +1,9 @@
 /* estilos gerais */
+:root{
+    --primary: #fec63e;
+    --secondary: black;
+    --terciary: white;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,9 +13,9 @@ p {
     line-height: 20px;
 }
 .btn {
-    border: 3px solid #fec63e;
+    border: 3px solid var(--primary);
     padding: 10px 30px;
-    color: #fec63e;
+    color: var(--primary);
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
@@ -18,15 +23,16 @@ p {
     font-weight: bold;
 }
 .btn:hover {
-    color: white;
-    border-color: white;
+    color: var(--terciary);
+    border-color: var(--terciary);
+}
 }
 /* header */
 .header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #fec63e;
+    background: var(--primary);
     padding: 15px 0;
 }
 .header_menu {
@@ -38,7 +44,7 @@ p {
     margin-top: 20px;
 }
 .header_menu ul li a {
-    color: #000;
+    color: var(--secondary);
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -47,7 +53,7 @@ p {
     padding: 10px 0;
 }
 .header_menu ul li a:hover {
-    color: white;
+    color: var(--terciary);
 }
 .introducao {
     width: 100%;
@@ -60,14 +66,14 @@ p {
 }
 .introducao h1 {
     font-size: 48px;
-    color: white;
+    color: var(--terciary);
     font-weight: bold;
     text-transform: uppercase;
 }
 .quote-externo {
     max-width: 250px;
     margin: 0 auto;
-    color: white;
+    color: var(--terciary);
     margin-bottom: 50px;
 }
 .quote-externo p {
@@ -78,7 +84,7 @@ p {
     display: block;
     width: 60px;
     height: 3px;
-    background: white;
+    background: var(--terciary);
     margin: 13px auto 10px;
 }
 .quote-externo cite {
