@@ -154,3 +154,21 @@ p {
 .call p {
     margin-bottom: 40px;
 }
+/* portifolio */
+.portifolio {
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 40px 0;
+}
+.portifolio .subtitulo {
+    color: var(--primary);
+}
+.portifolio .subtitulo::after {
+    background-color: var(--primary);
+}
+.portifolio_lista li:last-child {
+    margin-top: 20px;
+}
+.portifolio .call p {
+    color: var(--terciary);
+}
