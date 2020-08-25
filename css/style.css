@@ -48,6 +48,23 @@ p {
     background: var(--secondary);
     margin: 8px auto;
 }
+.subtitulo-interno{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: var(--secondary);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--secondary);
+    margin: 8px 0;
+}
 img {
     display: block;
 }
@@ -80,6 +97,10 @@ img {
 .header_menu ul li a:hover {
     color: var(--terciary);
 }
+.header_menu ul li a.menu-ativo{
+  color: var(--terciary);
+}
+/* introdução */
 .introducao {
     width: 100%;
     height: 380px;
@@ -117,6 +138,28 @@ img {
     font-weight: bold;
     letter-spacing: .1em;
     text-transform: uppercase;
+}
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: var(--terciary);
+  padding-top: 30px;
+}
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--terciary);
+    margin: 6px auto 10px;
 }
 /*produtos*/
 .produtos {
@@ -195,6 +238,7 @@ img {
 }
 .qualidade_lista {
     padding-top: 20px;
+    overflow: hidden;
 }
 .qualidade_lista li {
     text-align: center;
