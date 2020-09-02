@@ -27,3 +27,6 @@ E os das demais páginas
 - [Produtos](docs/design/Produtos.jpg)
 - [Sobre](docs/design/Sobre.jpg)
 - [Contato](docs/design/Contato.jpg)
+
+## Codificação
+Também foi desenvolvido a responsibilidade do site.
