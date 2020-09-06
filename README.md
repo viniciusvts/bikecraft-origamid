@@ -29,4 +29,11 @@ E os das demais páginas
 - [Contato](docs/design/Contato.jpg)
 
 ## Codificação
-Também foi desenvolvido a responsibilidade do site.
+Codificação com HTML, CSS e Javascript do projeto também levando em consideração a semântica e a responsividade, bem como boas práticas e reutilização do código.
+
+## Conhecimentos passados no curso
+- Design da teoria ao desenvolvimento do wireframe e posterior conversão para o design final.
+- Uso da ferramenta Adobe XD para o desenvolvimento do design.
+- Insights da importância da semântica na web.
+- Importância da repetição na construção da identidade visual.
+- Importância da reutilização do código.
